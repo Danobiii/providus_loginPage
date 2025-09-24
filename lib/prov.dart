@@ -148,6 +148,7 @@ class MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: EdgeInsets.only(left: 23, right: 23),
               child: TextField(
+                style: TextStyle(color: Colors.white),
                 decoration: InputDecoration(
                   hintText: ("Enter Username"),
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 13),
@@ -180,6 +181,7 @@ class MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: EdgeInsets.only(left: 23, right: 23),
               child: TextField(
+                style: TextStyle(color: Colors.white),
                 obscureText: _obscure,
                 decoration: InputDecoration(
                   // suffixIcon: Icon(Icons.visibility, color: Colors.white70),
